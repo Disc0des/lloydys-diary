@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "quarz";
+    src: url("../images/quarz.woff") format('woff');
+}
+
+.app {
+    height: 100vh;
+    width: 100vw;
+}
+
+.fadedlines {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 1em;
+    font-family: quarz;
+    font-size: 2em;
+    color: var(--primary);
+}
