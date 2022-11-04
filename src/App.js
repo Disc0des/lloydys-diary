@@ -13,7 +13,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("submitted");
+    console.log("submit");
   };
 
   const handleDetailsChange = (e) => {
