@@ -1,0 +1,75 @@
+.new-client-page {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, rgba(28, 28, 28, 1) 30%, rgba(163, 161, 139, 1) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-client-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 50%;
+    min-width: 15rem;
+    max-width: 20rem;
+    padding-bottom: 2rem;
+}
+
+.new-client-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+label {
+    font-size: 0.8em;
+    margin-bottom: 2px;
+    color: var(--third);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+input {
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid var(--third);
+    text-align: center;
+    height: 2rem;
+    width: 96%;
+    text-align: left;
+    color: var(--third);
+    padding-left: 0.5rem;
+}
+
+.new-client-form > label {
+    align-self: flex-start;
+}
+
+.create-button {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid var(--primary);
+    box-shadow: inset 0 0 0 200px var(--secondary);
+    width: 102%;
+    height: 2.5rem;
+    margin-top: 5px;
+    transition: ease-in-out all 0.1s;
+    transform: scale(1);
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.create-button:active {
+    transform: scale(0.8);
+}

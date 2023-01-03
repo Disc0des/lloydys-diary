@@ -1,0 +1,97 @@
+.search-clients-page {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, rgba(28, 28, 28, 1) 30%, rgba(163, 161, 139, 1) 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    min-width: 18rem;
+    max-width: 25rem;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.search-input {
+    margin: 0;
+    width: 93%;
+}
+
+.search-icon {
+    position: absolute;
+    right: 1rem;
+    color: var(--third);
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.search-cont {
+    top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    min-width: 18rem;
+    max-width: 25rem;
+    padding-bottom: 1rem;
+}
+
+.results-cont {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    justify-content: flex-end;
+}
+
+.alphabet-bar {
+    font-size: 0.6em;
+    padding-right: 0.5rem;
+}
+
+.avatar {
+    color: var(--third);
+    padding: 0 0.5rem 0 0.5rem;
+    font-size: 2em;
+}
+
+.contact-cont {
+    width: 100%;
+    height: 25rem;
+    overflow: scroll;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.client-name {
+    font-weight: 600;
+    font-style: italic;
+}
+
+.client-number {
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: var(--third);
+}

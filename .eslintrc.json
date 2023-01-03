@@ -20,11 +20,13 @@
   "rules": {
     "no-underscore-dangle": [0],
     "react/jsx-props-no-spreading": [0],
+    "react/jsx-no-constructed-context-values": [0],
     "react/jsx-filename-extension": [
       1,
       {
         "extensions": [".js", ".jsx"]
       }
-    ]
+    ],
+    "react/function-component-definition": [0]
   }
 }

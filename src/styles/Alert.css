@@ -1,0 +1,24 @@
+.alert-cont {
+    width: 70%;
+    height: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin-top: 1rem;
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+    filter: drop-shadow(2px 4px 6px black);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-family: 'Lora', serif;
+    color: var(--third);
+}
+
+.error {
+    background-color: rgba(248, 3, 3, 0.386);
+}
+
+.success {
+    background-color: rgba(7, 86, 11, 0.386);
+}
